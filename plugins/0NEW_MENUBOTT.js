@@ -61,14 +61,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, isPrems,
 ┊─•✧*𝑼𝙏𝑬𝙉𝙏𝙄 𝑻𝑶𝑻𝑨𝑳𝙄:* ${totaluser}
 └──𝑩𝑶𝑻𝑾𝑯𝑨𝑰𝑻𝑨 V${vs}
 
-┌─*𝑱𝒐𝒊𝒏 𝒘𝒊𝒕𝒉 𝒖𝒔*
-┊─• *𝑺𝒄𝒂𝒓𝒊𝒄𝒂𝒓𝒆 𝑴𝒐𝒐𝒏𝑪𝒍𝒐𝒖𝒅𝒔⇝𝐁Ꮻ𝐓*
-┊ https://github.com/Fabri115/botwhaita.git
-┊─• *𝑬𝒏𝒕𝒓𝒂 𝒊𝒏 𝐌ꮻꮻ𝖓☾︎ℓꮻ𝕦𝜕𝖘*
-┊ https://chat.whatsapp.com/InZqSk4lsyzKJUtSWfsdjF 
-┊─• *𝑻𝒖𝒕𝒐𝒓𝒊𝒂𝒍:*
-┊ https://www.youtube.com/watch?v=6Cg1yUMz-Do
-└── ⇝ *ꪶ͢𝑴☁️ꫂ ᵉᵈᶦᶻ ²⁰²³*`;
+└── ⇝ 𝖊𝖗 𝖇𝖔𝖙 𝖓𝖊𝖌𝖗𝖔`;
   const templateButtons = [
     {index: 1, quickReplyButton: {displayText: '.menuowner'}},
     {index: 2, quickReplyButton: {displayText: '.menuattiva'}},
