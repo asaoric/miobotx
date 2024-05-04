@@ -23,7 +23,7 @@ export async function before(m, {isAdmin, groupMetadata, isBotAdmin}) {
 *${user.warnInstagram}* ° 𝐀𝐕𝐕𝐄𝐑𝐓𝐈𝐌𝐄𝐍𝐓𝐎, 𝐍𝐎𝐍 𝐑𝐈𝐏𝐑𝐎𝐕𝐀𝐑𝐂𝐈 𝐍𝐄𝐒𝐒𝐔𝐍𝐎 𝐓𝐈 𝐂𝐀𝐆𝐇𝐄𝐑𝐀 𝐁𝐄𝐘𝐎𝐍𝐂𝐄  `);
       } else if ((warnInstagram) => war) {
         global.db.data.users[m.sender].warnInstagram = 0;
-        m.reply(`⛔ 𝐔𝐓𝐄𝐍𝐓𝐄 𝐑𝐈𝐌𝐎𝐒𝐒𝐎, 𝐀𝐍𝐃𝐑𝐀 𝐀 𝐔𝐎𝐌𝐈𝐍𝐈 𝐄 𝐃𝐎𝐍𝐍𝐄`);
+        m.reply(`⛔ 𝐔𝐓𝐄𝐍𝐓𝐄 𝐑𝐈𝐌𝐎𝐒𝐒𝐎, *STO SCEMO VOLEVA DIVENTA FAMOSO😂*`);
         await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
       }
     }
