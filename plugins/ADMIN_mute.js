@@ -6,7 +6,7 @@ const handler = async (m, {conn, participants, usedPrefix, command, isAdmin}) =>
   else who = m.chat;
   const users = global.db.data.users;
   users[who].muto = true;
-  m.reply('*Mutato* 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨 ✓ *tutti i messaggi inviati ti verranno eliminati. soffri.*');
+  m.reply('*Mutato* 𝐜𝐨𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐨 ✓ *cane devi sta zitto a cuccia.*');
 };
 handler.command = /^muta$/i;
 handler.admin = true;
