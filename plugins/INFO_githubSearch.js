@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 const handler = async (m, {text}) => {
-  if (!text) throw '¿Qué tengo que buscar?';
+  if (!text) throw '¿?';
   const res = await fetch(global.API('https://api.github.com', '/search/repositories', {
     q: text,
   }));
